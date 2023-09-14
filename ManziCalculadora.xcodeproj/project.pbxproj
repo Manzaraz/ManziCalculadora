@@ -11,6 +11,7 @@
 		61ABA3712AB3BD3F00E2CAF9 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABA3702AB3BD3F00E2CAF9 /* ContentView.swift */; };
 		61ABA3732AB3BD4100E2CAF9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61ABA3722AB3BD4100E2CAF9 /* Assets.xcassets */; };
 		61ABA3762AB3BD4100E2CAF9 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 61ABA3752AB3BD4100E2CAF9 /* Preview Assets.xcassets */; };
+		61ABA3812AB3BFCB00E2CAF9 /* Models.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61ABA3802AB3BFCB00E2CAF9 /* Models.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		61ABA3702AB3BD3F00E2CAF9 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		61ABA3722AB3BD4100E2CAF9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		61ABA3752AB3BD4100E2CAF9 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		61ABA3802AB3BFCB00E2CAF9 /* Models.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Models.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 			isa = PBXGroup;
 			children = (
 				61ABA36E2AB3BD3F00E2CAF9 /* ManziCalculadoraApp.swift */,
+				61ABA3802AB3BFCB00E2CAF9 /* Models.swift */,
 				61ABA3702AB3BD3F00E2CAF9 /* ContentView.swift */,
 				61ABA3722AB3BD4100E2CAF9 /* Assets.xcassets */,
 				61ABA3742AB3BD4100E2CAF9 /* Preview Content */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				61ABA3812AB3BFCB00E2CAF9 /* Models.swift in Sources */,
 				61ABA3712AB3BD3F00E2CAF9 /* ContentView.swift in Sources */,
 				61ABA36F2AB3BD3F00E2CAF9 /* ManziCalculadoraApp.swift in Sources */,
 			);
