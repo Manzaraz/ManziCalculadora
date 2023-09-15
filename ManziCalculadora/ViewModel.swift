@@ -38,12 +38,17 @@ final class ViewModel: ObservableObject {
                 textFieldValue = "\(Int(textFieldSavedValue)! / Int(textFieldValue)!)"
             case .subtraction:
                 textFieldValue = "\(Int(textFieldSavedValue)! - Int(textFieldValue)!)"
+            case .invert:
+                textFieldValue = "\(Int(textFieldSavedValue)! * -1)"
+            case .percent:
+                textFieldValue = "\(Int(textFieldSavedValue)! / 100)"
             }
         case .operation(let type):
             textFieldSavedValue = textFieldValue
             currentOperationToExecute = type
-            shouldRunOperation = true 
+            shouldRunOperation = true
         }
+        
     }
     
 }

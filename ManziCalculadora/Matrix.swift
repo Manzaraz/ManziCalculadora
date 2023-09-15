@@ -12,8 +12,8 @@ import SwiftUI
 struct Matrix {
     static let firstSectionData: [KeyboardButton] = [
         .init(title: "AC", textColor: .black, backgroundColor: customLightGray, isDoubleWidth: false, type: .reset),
-        .init(title: "+/-", textColor: .black, backgroundColor: customLightGray, isDoubleWidth: false, type: .reset),
-        .init(title: "%", textColor: .black, backgroundColor: customLightGray, isDoubleWidth: false, type: .reset),
+        .init(title: "+/-", textColor: .black, backgroundColor: customLightGray, isDoubleWidth: false, type: .operation(.invert)),
+        .init(title: "%", textColor: .black, backgroundColor: customLightGray, isDoubleWidth: false, type: .operation(.percent)),
         .init(title: "/", textColor: .white, backgroundColor: customOrange, isDoubleWidth: false, type: .operation(.division)),
         .init(title: "7", textColor: .white, backgroundColor: customDarkGray, isDoubleWidth: false, type: .number(7)),
         .init(title: "8", textColor: .white, backgroundColor: customDarkGray, isDoubleWidth: false, type: .number(8)),

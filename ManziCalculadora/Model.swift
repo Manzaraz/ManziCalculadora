@@ -24,10 +24,12 @@ enum ButtonType: Hashable {
     case reset
 }
 
-enum OperationType: Hashable	 {
+enum OperationType: Hashable     {
     case sum
     case multiplication
     case subtraction
     case division
+    case invert
+    case percent
 }
 
